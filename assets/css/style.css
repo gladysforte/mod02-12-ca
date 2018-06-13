@@ -22,7 +22,7 @@ body {
 	background-color: white;
 }
 
-header#mainHeader {
+/*header#mainHeader {
 	background-color: #dbdcff;
 	width: 20vw;
 	height: 100vh;
@@ -46,11 +46,11 @@ header#mainHeader > nav > ul > li {
 	margin-bottom: 5px;
 }
 
-header#mainHeader > nav > ul > li > a {  /*all anchor tab should have atleast the BG color*/
+header#mainHeader > nav > ul > li > a {   
 	text-decoration: none;
 	background-color: #602320;
 	color: white;
-	line-height: 50px;  /*centering relative to parent*/
+	line-height: 50px; 
 	display: block;
 }
 
@@ -58,8 +58,12 @@ header#mainHeader > nav > ul > li > a:hover {
 	background-color: white;
 	color: black;
 }
+*/
 
-main#wrapper {
+/*header#mainHeader > nav > ul > li > a {   all anchor tab should have atleast the BG color*/
+	/*line-height: 50px;  centering relative to parent*/
+
+/*main#wrapper {
 	background-color: lightgray;
 	margin-left: 20vw;
 }
@@ -93,7 +97,6 @@ section#about {
 }
 
 section#about > p {
-	/*margin-bottom: 25px;*/
 	padding: 0 25px 25px;
 }
 
@@ -120,7 +123,6 @@ section#services > div > img {
 
 section#projects {
 	background-color: #ffaaa5;
-	/*min-height: 85vh;*/
 	padding: 0 15px 15px;
 }
 
@@ -144,15 +146,14 @@ section#contact {
 
 section#contact > p {
 	margin: 0 25px;
-}
+}*/
 
-footer#mainFooter {
+/*footer#mainFooter {
 	background-color: lightgray;
 }
 
 footer#mainFooter > div#left {
 	width: 50%;
-	/*display: inline-block;*/
 	float: left;
 	font-size: 12px;
 	padding: 30px;
@@ -173,7 +174,7 @@ footer#mainFooter > div#right > ul {
 footer#mainFooter > div#right > ul > li {
 	display: inline-block;
 	padding-left: 5px;
-}
+}*/
 
 
 .clear:after {
